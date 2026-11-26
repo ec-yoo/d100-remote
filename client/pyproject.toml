@@ -7,6 +7,7 @@ name = "d100"
 version = "0.1.0"
 description = "Run PyTorch models on a HEAD D100 board through the D100 API server"
 requires-python = ">=3.10"
+license = {text = "Apache-2.0"}
 dependencies = ["numpy", "torch>=2.4", "torch-mlir"]
 
 [tool.setuptools]
